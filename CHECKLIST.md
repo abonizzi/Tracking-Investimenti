@@ -1,0 +1,18 @@
+# Checklist dopo il deploy
+- [ ] La pagina si apre e mostra la schermata di accesso (non l'avviso "modalità locale").
+- [ ] Registrazione e accesso funzionano; il logout riporta all'accesso.
+- [ ] Recupero password: arriva l'email e il link porta alla scelta della nuova password.
+- [ ] Ricarica su una sotto-pagina: nessun errore 404.
+- [ ] Procedura guidata: ogni passo si può saltare.
+- [ ] Investimento: crea, versa (guadagno invariato), vendi parzialmente (profitto marcato come stima), accredita su un conto.
+- [ ] Liquidità: entrata, uscita, trasferimento, saldi coerenti.
+- [ ] Fondo pensione: contributo non conteggiato come rendimento.
+- [ ] PAC: registra rata; la stessa scadenza non si può registrare due volte.
+- [ ] Cambi: senza cambio compare l'avviso e l'importo è escluso dai totali.
+- [ ] Andamento: snapshot, periodi, esportazione CSV.
+- [ ] Backup JSON: esporta, importa in modalità "Unisci" e "Sostituisci".
+- [ ] Report PDF: si scarica ed è leggibile.
+- [ ] PIN: blocco alla riapertura e dopo inattività; "Nascondi importi".
+- [ ] Sync: modifica offline, torna online → stato "sincronizzato"; secondo dispositivo vede i dati.
+- [ ] Conflitto: modifica da due dispositivi → compare l'avviso e nessun dato va perso.
+- [ ] Isolamento: due utenti diversi non vedono i dati dell'altro (anche con la REST API).
